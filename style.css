@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  padding: 0.1rem;
+}
+.intro {
+  margin-bottom: 100px;
+}
+li {
+  list-style: none;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+ul {
+  display: flex;
+  font-family: "Trispace", sans-serif;
+}
+.contact {
+  margin-left: auto;
+}
+a:hover {
+  padding-bottom: 10px;
+  border-bottom: solid #bbb;
+}
+
+.img {
+  margin: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 70px;
+  padding: 10px;
+}
+.skill {
+  font-weight: bold;
+  font-family: "Aldrich", sans-serif;
+}
+.floating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+.html {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.java {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.js {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.node {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.express {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.mongo {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.css {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.react {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.dis {
+  font-size: 30px;
+}
+.payroll {
+  margin: 20px;
+  height: 200px;
+}
+.projects > h1 {
+  font-weight: bold;
+  font-family: "Aldrich", sans-serif;
+}
+.xproject > a {
+  color: black;
+}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: "Show more";
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: "Show less";
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: -10rem;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 0.9em;
+  line-height: 2;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.25em;
+}
+.read-more-trigger:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 251, 251);
+}
+
+.contactme {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.dis {
+  margin: 0 7rem;
+}
+
+.cmn {
+  font-family: "Odibee Sans", cursive;
+  font-size: 50px;
+}
+.contain {
+  font-family: "Aldrich", sans-serif;
+  margin: 0rem 7rem;
+  font-weight: bold;
+}
+.abouty,
+.skilly,
+.projecty {
+  display: flex;
+  justify-content: flex-end;
+}
+.sk {
+  width: 30px;
+}
+.greet {
+  margin-left: 7.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* ///////////////////// */
+/* body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.intro {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Aldrich", sans-serif;
+  margin-left: 2rem;
+}
+.typing {
+  height: auto;
+  margin-left: 10px;
+  position: relative;
+}
+.typing::after {
+  content: "";
+
+  height: 100%;
+  border-right: 2px solid rgb(8, 8, 8);
+  animation: blink 0.5s ease infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h1,
+.name-intro {
+  display: flex;
+  font-size: 80px;
+  font-family: "Aldrich", sans-serif;
+  font-weight: bold;
+  align-items: center;
+}
+
+.name-intro {
+  margin-top: -11rem;
+  margin-left: 9.3rem;
+}
+.intros {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.about,
+.tools,
+.projects {
+  margin-bottom: 200px;
+}
+.tools {
+  cursor: pointer;
+}
+
+.read-more-wrap {
+  font-size: 20px;
+  padding-right: 15px;
+}
