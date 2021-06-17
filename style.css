@@ -216,10 +216,12 @@ a:hover {
   margin-left: 2rem;
 }
 .typing {
+  position: absolute;
   height: auto;
-  margin-left: 1.2rem;
+  margin-left: 7.3rem;
   font-size: 80px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  /* background-color: chocolate; */
 }
 .typing::after {
   content: "";
@@ -293,6 +295,6 @@ a:hover {
 @media screen and (max-width: 600px) {
   html {
     /* background-color: chartreuse; */
-    zoom: 70%;
+    zoom: 50%;
   }
 }
