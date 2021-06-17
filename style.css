@@ -234,7 +234,7 @@ a:hover {
     opacity: 1;
   }
 }
-h1,
+
 .name-intro {
   display: flex;
   font-size: 80px;
@@ -245,7 +245,7 @@ h1,
 
 .name-intro {
   margin-top: -11rem;
-  margin-left: 9.3rem;
+  margin-left: 8.8rem;
 }
 .intros {
   margin-top: 100px;
@@ -290,12 +290,12 @@ h1,
   }
 
   .intro > h1 {
-    background-color: aqua;
+    /* background-color: rgb(255, 255, 255); */
     font-size: 4rem;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
   .name-intro {
-    background-color: blue;
+    /* background-color: rgb(255, 255, 255); */
     font-size: 4rem;
     margin-left: 7.8rem;
   }
