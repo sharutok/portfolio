@@ -288,4 +288,15 @@ h1,
     margin: 0rem 1rem;
     font-weight: bold;
   }
+  h1,
+  .name-intro {
+    display: flex;
+    font-size: 70px;
+    font-family: "Aldrich", sans-serif;
+    font-weight: bold;
+    align-items: center;
+  }
+  .intro {
+    margin-left: 2.9rem;
+  }
 }
