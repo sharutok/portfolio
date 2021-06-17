@@ -154,7 +154,7 @@ a:hover {
   cursor: pointer;
   display: inline-block;
   margin-top: -10rem;
-  /* padding: 5px; */
+  padding: 5px;
   color: rgb(0, 0, 0);
   font-size: 0.9em;
   line-height: 2;
@@ -234,7 +234,7 @@ a:hover {
     opacity: 1;
   }
 }
-
+h1,
 .name-intro {
   display: flex;
   font-size: 80px;
@@ -245,7 +245,7 @@ a:hover {
 
 .name-intro {
   margin-top: -11rem;
-  margin-left: 8.8rem;
+  margin-left: 9.3rem;
 }
 .intros {
   margin-top: 100px;
@@ -275,28 +275,8 @@ a:hover {
   flex-wrap: wrap;
   font-family: "Satisfy", cursive;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   html {
     background-color: rgb(255, 255, 255);
-  }
-  .dis {
-    margin: 0 1rem;
-  }
-
-  .contain {
-    font-family: "Aldrich", sans-serif;
-    margin: 0rem 1rem;
-    font-weight: bold;
-  }
-
-  .intro > h1 {
-    /* background-color: rgb(255, 255, 255); */
-    font-size: 4rem;
-    margin-bottom: 60px;
-  }
-  .name-intro {
-    /* background-color: rgb(255, 255, 255); */
-    font-size: 4rem;
-    margin-left: 7.8rem;
   }
 }
