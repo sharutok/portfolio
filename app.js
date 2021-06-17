@@ -1,4 +1,4 @@
-const texts = ["Hello.", "Hola.", "नमस्ते.", "Kon'nichiwa."];
+const texts = ["Hello", "नमस्ते", "Hola", "今日は"];
 var count = 0;
 var index = 0;
 var decrement = 0;

@@ -154,7 +154,7 @@ a:hover {
   cursor: pointer;
   display: inline-block;
   margin-top: -10rem;
-  padding: 5px;
+  /* padding: 5px; */
   color: rgb(0, 0, 0);
   font-size: 0.9em;
   line-height: 2;
@@ -222,7 +222,6 @@ a:hover {
 }
 .typing::after {
   content: "";
-
   height: 100%;
   border-right: 2px solid rgb(8, 8, 8);
   animation: blink 0.5s ease infinite;
@@ -275,4 +274,18 @@ h1,
   display: flexbox;
   flex-wrap: wrap;
   font-family: "Satisfy", cursive;
+}
+@media screen and (max-width: 1000px) {
+  html {
+    background-color: rgb(255, 255, 255);
+  }
+  .dis {
+    margin: 0 1rem;
+  }
+
+  .contain {
+    font-family: "Aldrich", sans-serif;
+    margin: 0rem 1rem;
+    font-weight: bold;
+  }
 }
