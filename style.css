@@ -288,15 +288,15 @@ h1,
     margin: 0rem 1rem;
     font-weight: bold;
   }
-  h1,
-  .name-intro {
-    display: flex;
-    font-size: 70px;
-    font-family: "Aldrich", sans-serif;
-    font-weight: bold;
-    align-items: center;
+
+  .intro > h1 {
+    background-color: aqua;
+    font-size: 4rem;
+    margin-bottom: 90px;
   }
-  .intro {
-    margin-left: 2.9rem;
+  .name-intro {
+    background-color: blue;
+    font-size: 4rem;
+    margin-left: 7.8rem;
   }
 }
