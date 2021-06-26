@@ -4,28 +4,36 @@ body {
 }
 
 .navbar {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   padding: 0.1rem;
 }
+
 .intro {
   margin-bottom: 100px;
 }
+
 li {
   list-style: none;
   padding: 0 1rem;
   text-transform: uppercase;
 }
+
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
 }
+
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: "Trispace", sans-serif;
 }
+
 .contact {
   margin-left: auto;
 }
+
 a:hover {
   padding-bottom: 10px;
   border-bottom: solid #bbb;
@@ -34,97 +42,165 @@ a:hover {
 .img {
   margin: 20px 10px;
   border-radius: 10px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid black;
   width: 80px;
   padding: 10px;
 }
+
 .skill {
   font-weight: bold;
   font-family: "Aldrich", sans-serif;
 }
+
 .floating {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 40px;
   display: flexbox;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .html {
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .java {
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .js {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .node {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .express {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .mongo {
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .css {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
+
 .react {
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
 }
 
 @keyframes floating {
   0% {
-    transform: translate(0, 0px);
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 15px);
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
   }
   100% {
-    transform: translate(0, -0px);
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
   }
 }
 
 .dis {
   font-size: 30px;
 }
+
 .payroll {
   margin: 20px;
   height: 200px;
 }
+
 .projects > h1 {
   font-weight: bold;
   font-family: "Aldrich", sans-serif;
 }
+
 .xproject > a {
   color: black;
 }
+
 .read-more-state {
   display: none;
 }
@@ -133,6 +209,7 @@ a:hover {
   opacity: 0;
   max-height: 0;
   font-size: 0;
+  -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
 }
 
@@ -155,21 +232,26 @@ a:hover {
   display: inline-block;
   margin-top: -10rem;
   padding: 5px;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 0.9em;
   line-height: 2;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-radius: 0.25em;
 }
+
 .read-more-trigger:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 251, 251);
+  background-color: black;
+  color: #fffbfb;
 }
 
 .contactme {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .dis {
@@ -182,12 +264,14 @@ a:hover {
   font-family: "Odibee Sans", cursive;
   font-size: 50px;
 }
+
 .contain {
   font-family: "Aldrich", sans-serif;
   margin: 0rem 7rem;
   /* background-color: brown; */
   font-weight: bold;
 }
+
 .contain > p {
   font-size: 1.5rem;
 }
@@ -196,25 +280,38 @@ a:hover {
 .skilly,
 .projecty,
 .quotesy {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
+
 .sk {
   width: 30px;
 }
+
 .greet {
   margin-left: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 50px;
   font-family: "Aldrich", sans-serif;
   margin-left: 2rem;
 }
+
 .typing {
   position: absolute;
   height: auto;
@@ -223,12 +320,24 @@ a:hover {
   margin-bottom: 5rem;
   /* background-color: chocolate; */
 }
+
 .typing::after {
   content: "";
   height: 100%;
-  border-right: 2px solid rgb(8, 8, 8);
-  animation: blink 0.5s ease infinite;
+  border-right: 2px solid #080808;
+  -webkit-animation: blink 0.5s ease infinite;
+          animation: blink 0.5s ease infinite;
 }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -239,12 +348,15 @@ a:hover {
 }
 
 .name-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 90px;
   font-family: "Aldrich", sans-serif;
-
   font-weight: bold;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /* background-color: cadetblue; */
 }
 
@@ -252,6 +364,7 @@ a:hover {
   margin-top: -11rem;
   margin-left: 9.3rem;
 }
+
 .intros {
   margin-top: 100px;
   margin-bottom: 200px;
@@ -264,40 +377,71 @@ a:hover {
 .quotes {
   margin-bottom: 200px;
 }
+
 .tools {
   cursor: pointer;
 }
 
-.read-more-wrap {
-  font-size: 20px;
-  padding-right: 15px;
+.pro-con {
+  margin: 50px 0;
+}
+
+.dump {
+  display: none;
+}
+
+.pro-con:hover .dump {
+  display: block;
+  margin-top: -4rem;
+  margin-left: 5rem;
+  position: absolute;
+  background-color: khaki;
+  padding: 5px 2px;
+  font-size: smaller;
+  border: 2px dotted black;
+  border-radius: 10px;
 }
 
 .quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 4rem;
   padding: 0 3rem;
   font-family: "Satisfy", cursive;
 }
+
 .pro-img-list {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pro-img {
   border: 3px solid black;
   width: 300px;
   height: 400px;
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   border-radius: 10px;
-  transition: 0.8s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
   margin: 0 10px;
 }
+
 .pro-img:hover {
-  filter: grayscale(0%);
-  transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media screen and (max-width: 1000px) {
@@ -318,3 +462,4 @@ a:hover {
     zoom: 50%;
   }
 }
+/*# sourceMappingURL=style.css.map */
